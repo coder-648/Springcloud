@@ -1,4 +1,3 @@
-## httpclient配置
 http-client:
   config:
     maxTotal: 100
@@ -7,18 +6,24 @@ http-client:
     connectionRequestTimeout: 500
     socketTimeout: 10000
     validateAfterInactivity: 10000
-
-#应用参数
+    
 application:
   info:
     client_id: 253447112149307392
     client_secret: msIwfwThMeUMeIuzHUgroXSiIzD4xMgr
     redirect_uri: http://localhost:8000/oauth
 
-#用户参数
 user:
   info:
     mobile: 13186391590
     device: android
     area_code: 86
+
+bot:
+  info:
+    owner_id: 462975
+    username: cc
+    bot_avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F16%2F10%2F29%2F2ac8e99273bc079e40a8dc079ca11b1f.jpg&refer=http%3A%2F%2Fbpic.588ku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1628919803&t=49bcaa0ba1ec903ccc961caaab01e315
+
+    
 
