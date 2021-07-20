@@ -1,0 +1,24 @@
+## httpclient配置
+http-client:
+  config:
+    maxTotal: 100
+    defaultMaxPerRoute: 20
+    connectTimeout: 1000
+    connectionRequestTimeout: 500
+    socketTimeout: 10000
+    validateAfterInactivity: 10000
+
+#应用参数
+application:
+  info:
+    client_id: 253447112149307392
+    client_secret: msIwfwThMeUMeIuzHUgroXSiIzD4xMgr
+    redirect_uri: http://localhost:8000/oauth
+
+#用户参数
+user:
+  info:
+    mobile: 13186391590
+    device: android
+    area_code: 86
+
