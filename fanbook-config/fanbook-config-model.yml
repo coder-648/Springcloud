@@ -26,7 +26,7 @@ bot:
 
 thread-pool:
   config:
-    corePoolSize: 20
+    corePoolSize: 25
     maxPoolSize: 50
     queueCapacity: 100
     keepAliveSeconds: 60
